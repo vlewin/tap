@@ -1,12 +1,14 @@
 cask "splash-control" do
-  version "1.11.0"
-  sha256 "a605d37525313ee1f3f1c0c97ee7814abf82bbba2a8fcb423ce005bc89d127fa"
+  version "1.12.0"
+  sha256 "692a40bab68a90490b1e8bbf2ab13f7c6c025d2e2f4ba22d607c60ac3588c179"
 
   name "Splash Control"
   desc "Menu bar controller for the splash LLM server"
   homepage "https://github.com/vlewin/splash-control"
 
   url "https://github.com/vlewin/splash-control/releases/download/v#{version}/SplashControl-v#{version}.zip"
+
+  auto_updates true
 
   depends_on arch: :arm64
   # 26.4 floor per Resources/Info.plist; brew symbols are major-series only.
