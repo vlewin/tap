@@ -1,6 +1,6 @@
 cask "splash-control" do
-  version "1.20.1"
-  sha256 "88cfa5c84f22acd9e1747984b637a6a9c61c00fa3f3f79222b2c8c1f9af087f7"
+  version "1.21.0"
+  sha256 "63fea3bfb05bcadaed75438eeb980266c6b6388f1193a0a69c59b7147539424b"
 
   name "Splash Control"
   desc "Menu bar controller for the splash LLM server"
